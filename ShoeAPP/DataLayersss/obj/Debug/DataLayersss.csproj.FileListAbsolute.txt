@@ -1,0 +1,7 @@
+C:\Users\TuanNTT\source\repos\ShoeAPP\DataLayersss\bin\Debug\DataLayersss.pdb
+C:\Users\TuanNTT\source\repos\ShoeAPP\DataLayersss\obj\Debug\DataLayersss.csproj.AssemblyReference.cache
+C:\Users\TuanNTT\source\repos\ShoeAPP\DataLayersss\obj\Debug\DataLayersss.csproj.CoreCompileInputs.cache
+C:\Users\TuanNTT\source\repos\ShoeAPP\DataLayersss\obj\Debug\DataLayersss.pdb
+C:\Users\TuanNTT\source\repos\ShoeAPP\DataLayersss\bin\Debug\DataLayersss.dll.config
+C:\Users\TuanNTT\source\repos\ShoeAPP\DataLayersss\bin\Debug\DataLayersss.dll
+C:\Users\TuanNTT\source\repos\ShoeAPP\DataLayersss\obj\Debug\DataLayersss.dll

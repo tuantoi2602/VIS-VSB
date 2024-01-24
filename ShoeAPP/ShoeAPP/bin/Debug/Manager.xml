@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Managers>
+  <Manager>
+    <Id value="1" />
+    <Name value="Finn Nguyen" />
+    <Address value="Vietnam" />
+    <Email value="tuantoi100@gmail.com" />
+    <Telephone value="0939283901" />
+  </Manager>
+  <Manager>
+    <Id value="2" />
+    <Name value="John" />
+    <Address value="US" />
+    <Email value="john0@gmail.com" />
+    <Telephone value="875293342" />
+  </Manager>
+  <Manager>
+    <Id value="3" />
+    <Name value="Jan" />
+    <Address value="Czech" />
+    <Email value="jan920@gmail.com" />
+    <Telephone value="777059312" />
+  </Manager>
+  <Manager>
+    <Id value="4" />
+    <Name value="Piraya" />
+    <Address value="Thailand" />
+    <Email value="piraya2416@gmail.com" />
+    <Telephone value="581921252" />
+  </Manager>
+  
+</Managers>
+  
+ 

@@ -1,0 +1,70 @@
+﻿@model IEnumerable<WebApplication2.shoe>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div id="content" class="float_r">
+    <div id="slider-wrapper">
+        <div id="slider" class="nivoSlider">
+            <img src="/Assets/images/slider/02.jpg" alt="" />
+            <a href="#"><img src="/Assets/images/slider/01.jpg" alt="" title="This is an example of a caption" /></a>
+            <img src="/Assets/images/slider/03.jpg" alt="" />
+            <img src="/Assets/images/slider/04.jpg" alt="" title="#htmlcaption" />
+        </div>
+        <div id="htmlcaption" class="nivo-html-caption">
+            <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>.
+        </div>
+    </div>
+    <script type="text/javascript" src="/Assets/js/jquery-1.4.3.min.js"></script>
+    <script type="text/javascript" src="/Assets/js/jquery.nivo.slider.pack.js"></script>
+    <script type="text/javascript">
+        $(window).load(function () {
+            $('#slider').nivoSlider();
+        });
+    </script>
+    <h1>New Products</h1>
+    <p>
+        @using (Html.BeginForm("SearchShoe", "Home", FormMethod.Get))
+        {
+            //the following are search options
+            <b> Search Option: </b>@Html.RadioButton("option", "Name") <span>Name</span> @Html.RadioButton("option", "Brand")<span>Brand</span>
+                @Html.TextBox("search")<input type="submit" name="submit" value="Search" />
+            }
+    </p>
+
+        @if (Model.Count() == 0)
+        {
+            <tr> 
+                <td colspan = "3"> Records not found </td>
+            </tr>
+         }else
+         {
+            foreach (var item in Model)
+            {
+                <tr>
+
+                    <h3>
+                        @Html.DisplayFor(modelItem => item.name)
+                    </h3>
+                    <p>
+                        Brand: @Html.DisplayFor(modelItem => item.brand.name)
+                    </p>
+                    <p>
+                        Size: @Html.DisplayFor(modelItem => item.size)
+                    </p>
+                    <p>
+                        Description: @Html.DisplayFor(modelItem => item.description)
+                    </p>
+                    <p>
+                        Price :@Html.DisplayFor(modelItem => item.price) $
+                    </p>
+                        <a href="@Url.Action("Add", "Home", item)" class="addtocart"></a>
+                </tr>
+             }
+         }
+
+
+
+</div> 

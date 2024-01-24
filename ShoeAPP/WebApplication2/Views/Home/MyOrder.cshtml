@@ -1,0 +1,65 @@
+﻿@model IEnumerable<shoe>
+@{
+    ViewBag.Title = "MyOrder";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@{
+    int sum = 0;
+}
+<h2>MyOrder</h2>
+
+<div id="content" class="float_r">
+    <h1>Shopping Cart</h1>
+    <table width="680px" cellspacing="0" cellpadding="5">
+        @if (Model.Count() == 0)
+        {
+            <tr>
+                <td colspan="3"> Card Empty </td>
+            </tr>
+        }
+        else
+        {
+            foreach (var item in Model)
+            {
+                <tr>
+                    <h3>
+                        @Html.DisplayFor(modelItem => item.name) <br />
+                    </h3>
+                    <p>
+                        Brand: @Html.DisplayFor(modelItem => item.brand.name)<br />
+                    </p>
+                    <p>
+                        Size: @Html.DisplayFor(modelItem => item.size)<br />
+                    </p>
+                    <p>
+                        Description: @Html.DisplayFor(modelItem => item.description)<br />
+                    </p>
+                    <p>
+                        Price :@Html.DisplayFor(modelItem => item.price) $ <br />
+                    </p>
+                    <p>
+                        <button id="btn_delete"
+                                class="label label-primary"
+                                data-slno="@item.shoe_id" onclick="location.href='@Url.Action("Remove", "Home", item)'">
+                            Remove
+                        </button>
+                    </p>
+                </tr>
+            }
+            <div style="float:right; width: 215px; margin-top: 20px;">
+
+                <p><a href="@Url.Action("CheckOut")">Proceed to checkout</a></p>
+                <p><a href="@Url.Action("SearchShoe")">Continue shopping</a></p>
+
+            </div>
+        }
+
+        @foreach (var item in Model)
+        {
+            sum = Convert.ToInt32(item.price) + sum;
+        }
+
+
+    </table>
+
+</div>

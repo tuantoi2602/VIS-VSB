@@ -1,0 +1,13 @@
+C:\Users\TuanNTT\source\repos\ShoeAPP\BusinessLayer\bin\Debug\BusinessLayer.dll
+C:\Users\TuanNTT\source\repos\ShoeAPP\BusinessLayer\bin\Debug\BusinessLayer.pdb
+C:\Users\TuanNTT\source\repos\ShoeAPP\BusinessLayer\obj\Debug\BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\TuanNTT\source\repos\ShoeAPP\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\TuanNTT\source\repos\ShoeAPP\BusinessLayer\obj\Debug\BusinessLayer.dll
+C:\Users\TuanNTT\source\repos\ShoeAPP\BusinessLayer\obj\Debug\BusinessLayer.pdb
+C:\Users\TuanNTT\source\repos\ShoeAPP\BusinessLayer\bin\Debug\ShoeAPP.pdb
+C:\Users\TuanNTT\source\repos\ShoeAPP\BusinessLayer\bin\Debug\ShoeAPP.exe.config
+C:\Users\TuanNTT\source\repos\ShoeAPP\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
+C:\Users\TuanNTT\source\repos\ShoeAPP\BusinessLayer\bin\Debug\ShoeAPP.exe
+C:\Users\TuanNTT\source\repos\ShoeAPP\BusinessLayer\bin\Debug\DataLayersss.pdb
+C:\Users\TuanNTT\source\repos\ShoeAPP\BusinessLayer\bin\Debug\DataLayersss.dll
+C:\Users\TuanNTT\source\repos\ShoeAPP\BusinessLayer\bin\Debug\DataLayersss.dll.config

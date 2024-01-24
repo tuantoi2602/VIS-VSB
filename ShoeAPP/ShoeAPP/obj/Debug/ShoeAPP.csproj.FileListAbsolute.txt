@@ -1,0 +1,7 @@
+C:\Users\TuanNTT\source\repos\ShoeAPP\ShoeAPP\bin\Debug\ShoeAPP.exe.config
+C:\Users\TuanNTT\source\repos\ShoeAPP\ShoeAPP\bin\Debug\ShoeAPP.exe
+C:\Users\TuanNTT\source\repos\ShoeAPP\ShoeAPP\bin\Debug\ShoeAPP.pdb
+C:\Users\TuanNTT\source\repos\ShoeAPP\ShoeAPP\obj\Debug\ShoeAPP.csproj.AssemblyReference.cache
+C:\Users\TuanNTT\source\repos\ShoeAPP\ShoeAPP\obj\Debug\ShoeAPP.csproj.CoreCompileInputs.cache
+C:\Users\TuanNTT\source\repos\ShoeAPP\ShoeAPP\obj\Debug\ShoeAPP.exe
+C:\Users\TuanNTT\source\repos\ShoeAPP\ShoeAPP\obj\Debug\ShoeAPP.pdb
